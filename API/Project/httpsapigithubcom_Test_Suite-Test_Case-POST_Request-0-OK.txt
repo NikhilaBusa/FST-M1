@@ -1,0 +1,66 @@
+Status: OK
+Time Taken: 1064
+Size: 241
+Timestamp: Fri Jul 21 18:31:15 IST 2023
+TestStep: POST Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: POST
+StatusCode: 201
+URL: https://api.github.com/user/keys
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/16.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [110]
+Content-Type: [application/json]
+
+POST https://api.github.com/user/keys HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer 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
+Content-Length: 110
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.1)
+
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [admin:public_key, write:public_key]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [10]
+Access-Control-Allow-Origin: [*]
+x-github-api-version-selected: [2022-11-28]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4990]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 201 Created]
+Content-Length: [241]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [2190:288726:FB15AC:10B656F:64BA819A]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1689946921]
+Date: [Fri, 21 Jul 2023 13:01:14 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: ["87eb8ac1b27abd5b4525e203ef5bbb1c4f95e4a59c8b75b5c77533025240c0e3"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user:email]
+github-authentication-token-expiration: [2023-08-06 06:26:53 UTC]
+Location: [https://api.github.com/user/keys/85147389]
+
+{"id":85147389,"key":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPcnPNY3SbLvEA+ze/Gz86+vAnZXytlqZ6F0Z+oxcw1U","url":"https://api.github.com/user/keys/85147389","title":"TestNB","verified":true,"created_at":"2023-07-21T13:01:14Z","read_only":false}

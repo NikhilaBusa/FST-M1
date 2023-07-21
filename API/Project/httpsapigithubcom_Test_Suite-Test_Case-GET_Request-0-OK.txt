@@ -1,0 +1,60 @@
+Status: OK
+Time Taken: 362
+Size: 197
+Timestamp: Fri Jul 21 18:31:19 IST 2023
+TestStep: GET Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 200
+URL: https://api.github.com/user/emails
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/16.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://api.github.com/user/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer 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
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.1)
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [user, user:email]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [11]
+Access-Control-Allow-Origin: [*]
+x-github-api-version-selected: [2022-11-28]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4989]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [2190:288726:FB1692:10B665B:64BA819A]
+Transfer-Encoding: [chunked]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1689946921]
+Date: [Fri, 21 Jul 2023 13:01:17 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: [W/"51891caa03c1f17c37036d7e5b575d733a6deb12d302fbbc78c71c9943dc9cf5"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user:email]
+github-authentication-token-expiration: [2023-08-06 06:26:53 UTC]
+
+[{"email":"busa.nikhila@ibm.com","primary":true,"verified":true,"visibility":"private"},{"email":"136792839+NikhilaBusa@users.noreply.github.com","primary":false,"verified":true,"visibility":null}]

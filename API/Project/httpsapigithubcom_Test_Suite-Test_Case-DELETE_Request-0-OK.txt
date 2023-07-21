@@ -1,0 +1,58 @@
+Status: OK
+Time Taken: 340
+Size: 0
+Timestamp: Fri Jul 21 18:31:19 IST 2023
+TestStep: DELETE Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: DELETE
+StatusCode: 204
+URL: https://api.github.com/user/keys/85147389
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/16.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+Content-Type: [application/json]
+
+DELETE https://api.github.com/user/keys/85147389 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer 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
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.1)
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [admin:public_key]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [12]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1689946921]
+x-github-api-version-selected: [2022-11-28]
+Date: [Fri, 21 Jul 2023 13:01:17 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4988]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 204 No Content]
+X-XSS-Protection: [0]
+X-OAuth-Scopes: [admin:public_key, user:email]
+github-authentication-token-expiration: [2023-08-06 06:26:53 UTC]
+X-GitHub-Request-Id: [2190:288726:FB16BD:10B6682:64BA819D]
